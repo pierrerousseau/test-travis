@@ -13,4 +13,4 @@ android:
     - sys-img-armeabi-v7a-android-23
 
 script:
-  - gradle build
+  - gradle check build
