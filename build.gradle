@@ -1,5 +1,15 @@
 apply plugin: 'java'
 
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.1'
+    }
+}
+
+
 dependencies {
     compile "org.apache.logging.log4j:log4j-api:2.5"
     compile "org.apache.logging.log4j:log4j-core:2.5"
